@@ -1,4 +1,4 @@
-# Responsive navbar, menu and POS system proposal
+# Responsive navbar and category menu 
 
 
 ```
