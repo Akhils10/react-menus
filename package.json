@@ -1,5 +1,5 @@
 {
-  "name": "React-menus",
+  "name": "react-menus",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,11 @@
     "react-scripts": "3.1.1",
     "react-spring": "^8.0.27",
     "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "websocket-extensions": ">=0.1.4",
+    "minimist": ">=1.2.3",
+    "serialize-javascript": ">=2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
