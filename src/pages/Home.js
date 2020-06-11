@@ -7,7 +7,8 @@ const Home = () => {
     <Wrapper>
         <h1 className="text-dark mt-3"> Hello Menu App </h1>
 
-        <p className="text-center">The above demonstrates a fully mobile responsive navbar menu</p>
+        <p className="lead mt-3 text-center">This app is a sample app built to demonstrate the mobile responsive navbar menu as requested, built in reactjs</p>
+        <p className="lead text-center">You may find the complete code in the <pre><code> <a href="https://github.com/akhils10/react-menus">Github repo</a> </code></pre></p>
     </Wrapper>
   )
 }
@@ -23,7 +24,7 @@ const Wrapper = styled.div`
   }
 
   p {
-  	font-size: 20px;
+  	font-size: 18px;
   	margin-top: 10px
   }
  `;

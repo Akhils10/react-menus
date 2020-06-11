@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styled from "styled-components";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/Home";

@@ -1,10 +1,11 @@
-# Your very first responsive and animated navigation bar with React and React-Spring
+# Responsive navbar, menu and POS system proposal
 
-You can follow the tutorial for this project on medium or dev.
 
-[Link to Medium Article](https://medium.com/@nunopereira.dev/your-very-first-responsive-and-animated-navigation-bar-with-react-and-react-spring-a0ff7b709849)
+```
+[Link to Hosted app](https://reactjs-responsive-menu.netlify.com)
 
-[Link to DEV Article](https://dev.to/nunocpnp/your-very-first-responsive-and-animated-navigation-bar-with-react-and-react-spring-17co)
+```
+
 
 ### Features
 
@@ -16,4 +17,12 @@ You can follow the tutorial for this project on medium or dev.
 
 ```
 npm install && npm start
+
+```
+
+### How to build the project
+
+```
+npm run build
+
 ```
