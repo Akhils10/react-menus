@@ -69,17 +69,22 @@ const Menu = () => {
                     items: menuItems.length
                 })
             }
-            else if(window.innerWidth > 540 && window.innerWidth <= 600){
+            else if(window.innerWidth > 540 && window.innerWidth <= 620){
                 setItemsToDisplay({
                     items: 2
                 })
             }
-            else if(window.innerWidth > 600 && window.innerWidth < 768){
+            else if(window.innerWidth > 620 && window.innerWidth < 768){
                 setItemsToDisplay({
                     items: 3
                 })
             }
-            else if(window.innerWidth > 768){
+            else if(window.innerWidth > 768 && window.innerWidth < 862){
+                setItemsToDisplay({
+                    items: 4
+                })
+            }
+            else if(window.innerWidth > 862){
                 setItemsToDisplay({
                     items: 5
                 })
