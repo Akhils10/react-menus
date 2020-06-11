@@ -1,0 +1,3 @@
+2020.06.11 15:34:14 INFO  started: Metals version 0.9.0 in workspace '/Users/philipakhils/Documents/projects/React/react-navbar'
+2020.06.11 15:34:18 INFO  time: initialize in 3.43s
+2020.06.11 15:34:22 WARN  no build tool detected in workspace '/Users/philipakhils/Documents/projects/React/react-navbar'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
