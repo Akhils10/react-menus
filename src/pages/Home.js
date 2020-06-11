@@ -7,7 +7,7 @@ const Home = () => {
     <Wrapper>
         <h1 className="text-dark mt-3"> Hello Menu App </h1>
 
-        <p className="lead mt-2 text-center">The above demonstrates a fully mobile responsive navbar menu</p>
+        <p className="">The above demonstrates a fully mobile responsive navbar menu</p>
     </Wrapper>
   )
 }
