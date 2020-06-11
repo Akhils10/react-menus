@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import styled from "styled-components";
 
 import Navbar from "./components/navbar/Navbar";
+import Home from "./pages/Home";
 
 import GlobalStyle from './styles/Global';
 
@@ -24,22 +25,10 @@ class App extends Component {
         />
         <GlobalStyle />
 
-        <Wrapper>
-            <h1> Hello Menu App </h1>
-        </Wrapper>
+        <Home />
       </>
     )
   }
 }
 
 export default App
-
-const Wrapper = styled.div`
-  margin: 60px auto;
-
-  h1 {
-    text-align: center;
-    font-size: 40px;
-  }
-  `;
-

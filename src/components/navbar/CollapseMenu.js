@@ -16,10 +16,10 @@ const CollapseMenu = (props) => {
       }}
       >
         <NavLinks>
-          <li><a href="/" onClick={props.handleNavbar}>link n1</a></li>
-          <li><a href="/" onClick={props.handleNavbar}>link n2</a></li>
-          <li><a href="/" onClick={props.handleNavbar}>link n3</a></li>
-          <li><a href="/" onClick={props.handleNavbar}>link n4</a></li>
+          <li><a href="/" onClick={props.handleNavbar}>Item 1</a></li>
+          <li><a href="/" onClick={props.handleNavbar}>Item 2</a></li>
+          <li><a href="/" onClick={props.handleNavbar}>Item 3</a></li>
+          <li><a href="/" onClick={props.handleNavbar}>Item 4</a></li>
         </NavLinks>
       </CollapseWrapper>
     );
@@ -47,6 +47,7 @@ const NavLinks = styled.ul`
 
   & a {
     font-size: 1.4rem;
+    font-weight: bold;
     line-height: 2;
     color: #dfe6e9;
     text-transform: uppercase;
