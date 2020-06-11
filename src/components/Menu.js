@@ -81,7 +81,7 @@ const Menu = () => {
             }
             else if(window.innerWidth > 768){
                 setItemsToDisplay({
-                    items: 6
+                    items: 5
                 })
             }
         }, 100)
